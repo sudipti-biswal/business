@@ -1,0 +1,184 @@
+@media only screen and (max-width: 1024px) {
+.navbar{
+		max-width:1024px;
+        flex-direction:column;
+        transition:all 0.7s ease;
+  .nav-list{
+	flex-direction:column;
+}
+   .right-nav{	
+	text-align: center;		
+#search{
+	width: 100%;
+	margin:auto;
+}
+
+}
+
+.burger{
+	display: block;
+	cursor: pointer;
+}
+}
+.v-class{
+	opacity: 0;
+}
+.v-hight{
+	height: 50px;
+}
+
+
+//---------------------------------------//
+
+.first-section{
+	max-width: 1024px;
+	.box-main{
+
+
+	.firsthalf{
+		margin-right: 2rem;
+	}
+
+
+	}
+}
+
+}
+
+
+@media only screen and (max-width:768px) {
+
+  .first-section{
+  	max-width:100%;
+   padding: 0;
+	.box-main{
+		padding-top: 2rem;
+       flex-direction:column;
+       text-align: center;
+	.firsthalf{
+       	margin-right: 0rem;
+	    width: 100%;
+	.text-sm{
+        text-align:center;
+          padding-bottom:1rem;
+	}
+
+	.button{
+		display: flex;
+	    flex-direction: column;
+		justify-content:center;
+		align-items:center;
+		 padding-bottom:1rem;
+	}
+	}
+
+	.secondhalf{
+	     width: 20%;
+         padding-bottom: 2rem;
+		
+	}
+}
+}
+//----------------------------------------------//
+
+.secright{
+	max-width:100%;
+	margin: auto;
+.secright-box{
+	width: 65%;
+    padding:0 3rem;
+	.sec-tag{
+	    font-size: 1.2rem;
+        margin-bottom: 1rem;
+	}
+	.sec-subtag{
+	    font-size: 0.7rem;
+        line-height: 1.1rem;
+	}
+}
+.thumbnail{
+	width: 35%;
+	 padding:0 3rem;
+}
+}
+.secleft{
+	max-width:100%;
+	margin: auto;
+.secright-box{
+	width: 65%;
+    padding:0 3rem;
+	.sec-tag{
+	    font-size: 1.2rem;
+        margin-bottom: 1rem;
+	}
+	.sec-subtag{
+	    font-size: 0.7rem;
+        line-height: 1.1rem;
+	}
+}
+.thumbnail{
+	width: 35%;
+	 padding:0 3rem;
+}
+}
+.contact .form {
+    max-width: 500px;
+    
+}
+.contact .form {
+    max-width: 400px;
+}
+}
+
+@media only screen and (max-width:425px) {
+
+	.secright{
+     flex-direction:column;
+     margin:auto;
+.secright-box{
+	width: 100%;
+    padding:2rem 1.2rem;
+	.sec-tag{
+	    font-size: 2rem;
+        margin-bottom: 1rem;
+	}
+	.sec-subtag{
+	    font-size: 0.9rem;
+        line-height: 1.4rem;
+	}
+}
+.thumbnail{
+	width: 100%;
+    height: 200px;
+	img{
+        border-radius: 0%;
+	}
+}
+}
+.secleft{
+	flex-direction:column;
+     margin:auto;
+.secright-box{
+	width: 100%;
+    padding:2rem 1.2rem;
+	.sec-tag{
+	    font-size: 2rem;
+        margin-bottom: 1rem;
+	}
+	.sec-subtag{
+	    font-size: 0.9rem;
+        line-height: 1.2rem;
+	}
+}
+.thumbnail{
+	width: 100%;
+    height: 200px;
+	img{
+        border-radius: 0%;
+	}
+}
+}
+.contact .form {
+    max-width: 300px;
+}
+}

@@ -1,0 +1,33 @@
+.flex{display: flex;}
+.background{
+	background:rgba(0,0,0,0.7)url(../img/building.jpg);
+	background-size: cover;
+	background-blend-mode:darken;
+}
+.btn{
+	padding: 8px 20px;
+	margin: 7px 0;
+	border: 2px solid white;
+	border-radius: 8px;
+	background-color:transparent;
+	color:white;
+	outline: none;
+	cursor: pointer;
+	margin-right: 1rem;
+
+}
+.btn-dark{
+	padding: 8px 20px;
+	margin: 7px 0;
+	border: 2px solid gray;
+	border-radius: 8px;
+	background-color:transparent;
+	color:gray;
+	outline: none;
+	cursor: pointer;
+	margin-top: 30px;
+	
+}
+.text-center{
+	text-align: center;
+}

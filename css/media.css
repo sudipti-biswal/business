@@ -1,0 +1,128 @@
+@media only screen and (max-width: 1024px) {
+  .navbar {
+    max-width: 1024px;
+    flex-direction: column;
+    transition: all 0.7s ease; }
+    .navbar .nav-list {
+      flex-direction: column; }
+    .navbar .right-nav {
+      text-align: center; }
+      .navbar .right-nav #search {
+        width: 100%;
+        margin: auto; }
+    .navbar .burger {
+      display: block;
+      cursor: pointer; }
+
+  .v-class {
+    opacity: 0; }
+
+  .v-hight {
+    height: 50px; }
+
+  .first-section {
+    max-width: 1024px; }
+    .first-section .box-main .firsthalf {
+      margin-right: 2rem; } }
+@media only screen and (max-width: 768px) {
+  .first-section {
+    max-width: 100%;
+    padding: 0; }
+    .first-section .box-main {
+      padding-top: 2rem;
+      flex-direction: column;
+      text-align: center; }
+      .first-section .box-main .firsthalf {
+        margin-right: 0rem;
+        width: 100%; }
+        .first-section .box-main .firsthalf .text-sm {
+          text-align: center;
+          padding-bottom: 1rem; }
+        .first-section .box-main .firsthalf .button {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding-bottom: 1rem; }
+      .first-section .box-main .secondhalf {
+        width: 20%;
+        padding-bottom: 2rem; }
+
+  .secright {
+    max-width: 100%;
+    margin: auto; }
+    .secright .secright-box {
+      width: 65%;
+      padding: 0 3rem; }
+      .secright .secright-box .sec-tag {
+        font-size: 1.2rem;
+        margin-bottom: 1rem; }
+      .secright .secright-box .sec-subtag {
+        font-size: 0.7rem;
+        line-height: 1.1rem; }
+    .secright .thumbnail {
+      width: 35%;
+      padding: 0 3rem; }
+
+  .secleft {
+    max-width: 100%;
+    margin: auto; }
+    .secleft .secright-box {
+      width: 65%;
+      padding: 0 3rem; }
+      .secleft .secright-box .sec-tag {
+        font-size: 1.2rem;
+        margin-bottom: 1rem; }
+      .secleft .secright-box .sec-subtag {
+        font-size: 0.7rem;
+        line-height: 1.1rem; }
+    .secleft .thumbnail {
+      width: 35%;
+      padding: 0 3rem; }
+
+  .contact .form {
+    max-width: 500px; }
+
+  .contact .form {
+    max-width: 400px; } }
+@media only screen and (max-width: 425px) {
+  .secright {
+    flex-direction: column;
+    margin: auto; }
+    .secright .secright-box {
+      width: 100%;
+      padding: 2rem 1.2rem; }
+      .secright .secright-box .sec-tag {
+        font-size: 2rem;
+        margin-bottom: 1rem; }
+      .secright .secright-box .sec-subtag {
+        font-size: 0.9rem;
+        line-height: 1.4rem; }
+    .secright .thumbnail {
+      width: 100%;
+      height: 200px; }
+      .secright .thumbnail img {
+        border-radius: 0%; }
+
+  .secleft {
+    flex-direction: column;
+    margin: auto; }
+    .secleft .secright-box {
+      width: 100%;
+      padding: 2rem 1.2rem; }
+      .secleft .secright-box .sec-tag {
+        font-size: 2rem;
+        margin-bottom: 1rem; }
+      .secleft .secright-box .sec-subtag {
+        font-size: 0.9rem;
+        line-height: 1.2rem; }
+    .secleft .thumbnail {
+      width: 100%;
+      height: 200px; }
+      .secleft .thumbnail img {
+        border-radius: 0%; }
+
+  .contact .form {
+    max-width: 300px; } }
+
+/*# sourceMappingURL=media.css.map */

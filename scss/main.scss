@@ -1,0 +1,15 @@
+@import"utility";
+@import"section";
+@import"contact";
+@import"nav";
+@import"copyright";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+html{
+	scroll-behavior:smooth;
+}
+@import"media";
